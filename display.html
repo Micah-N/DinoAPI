@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8"/>
+		<title>Dino API</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="mainjs.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+				
+		<div id='page-header'>
+            <h1 id='page-title' align="center">Dino API</h1>
+        </div>
+         
+		<table class="table">
+			<div id="displaywindow"></div>		
+		</table>
+		
+		<table class="table">
+			<div id="rowdisplaywindow"></div>
+		</table>
+		
+		<table border = "1" class="table" align="center">
+			<tr><th align="center">Add a Dinosaur</th></tr>
+			<form onsubmit="addDino()">			
+			<tr>
+				<td>Name</td>
+				<td><input type='text' id='name' required/>
+				</td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>
+				<menu id="Retrieved dinosaurs"><div id="resultholder"></div></menu>
+			</td>
+			</tr>
+			<tr>
+				<td>Order</td>
+				<td><input type='text' id='order' required min='1'/></td>
+			</tr>
+			<tr>
+				<td>Suborder</td>
+				<td><input type='text'  id='suborder' required/></td>
+			</tr>
+			<tr>
+				<td>Where</td>
+				<td><input type='text' id='where' required/></td>
+			</tr>
+			<tr>
+				<td>When</td>
+				<td><input type='text' id='when' required/></td>
+			</tr>
+			<tr>
+				<td>Food</td>
+				<td><input type='text' id='food' required/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" align="center" value="Add Dinosaur"></td>
+			</tr>	
+			</form>
+			
+		</table>
+
+		
+	</body>	
+</html>
