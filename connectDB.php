@@ -1,7 +1,6 @@
 <?php
 
-//Micah Netz CSCD 378
-//CRUD Prepared Statements Assignment
+//Micah Netz
 /*
 Note: cruds.php is the file in which I do my PDO prepared statement querying,
 	  and connectDB.php is used for creating a PDO connection
@@ -11,7 +10,7 @@ Note: cruds.php is the file in which I do my PDO prepared statement querying,
 define('host', 'localhost');
 define('user', 'root');
 define('pass', '');
-define('db', 'micah_movies');
+define('db', 'dinosaurs');
 define('charset', 'utf8');
 /**/
 /*	The following lines are for setting up the db connection for the web hosting service: 
@@ -19,7 +18,7 @@ define('charset', 'utf8');
 define('host', 'localhost');
 define('user', 'micahnet_micah');
 define('pass', 'Mkn.1523');
-define('db', 'micahnet_movies');
+define('db', 'dinosaurs');
 define('charset', 'utf8');
 /**/
  
