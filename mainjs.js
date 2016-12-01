@@ -3,19 +3,23 @@
 function gotData(data){
 	console.log(data);
 	var table = "<table border='1'align='center'>"
-				+"<tr><th>Dino Name</th><th>Year Released</th><th>Studio</th><th>Price</th></tr>"
+				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>Where</th><th>When</th><th>Food</th></tr>"
 				+"<tr>";
 	
 	for(var i in data){
 		var name = data[i]['Name'];
-		var year = data[i]['Year_Released'];
-		var studio = data[i]['Studio'];
-		var price = data[i]['Price'];
+		var order = data[i]['Order'];
+		var suborder= data[i]['Suborder'];
+		var where = data[i]['Where'];
+		var when = data[i]['When'];
+		var food = data[i]['Food'];
 		var id = data[i]['id'];
 		table += "<td>" + name + "</td>";
-		table += "<td>" + year + "</td>";
-		table += "<td>" + studio + "</td>";
-		table += "<td>" + price + "</td>";
+		table += "<td>" + order + "</td>";
+		table += "<td>" + suborder + "</td>";
+		table += "<td>" + where + "</td>";
+		table += "<td>" + when + "</td>";
+		table += "<td>" + food + "</td>";
 		table += ''
 		+		'<td><form name="editdino">'
 		+			'<input type="button" value="Edit" id="Edit Button" onclick="updateDino('+ data[i]['id'] +');">'
@@ -35,12 +39,12 @@ function readDinos() {
 	
 	$.ajax({
 		type: 'POST',
-		url: 'main.php',
+		url: 'commandsAdmin.php',
 		dataType: 'json',
 		data: 'data',
 		success: gotData
 	});//end of ajax call
-}//end of readMovies()
+}//end of readDinos()
 /*
 function queryTMDB(){
 	var url = 'http://api.themoviedb.org/3/',
