@@ -5,8 +5,21 @@ function gotData(data){
 	console.log(data);
 	/* To show the entire JSON results use the following two lines*/
 	for(response in data.responseJSON){
+		$("#displaywindow").html(JSON.stringify(data.responseJSON));
 		var dinoName = data.responseJSON[response]['Name'];
-		console.log(dinoName);		
+		var order = data.responseJSON[response]['Order'];
+		var suborder = data.responseJSON[response]['Suborder'];
+		var where = data.responseJSON[response]['Where'];
+		var when = data.responseJSON[response]['When'];
+		var food = data.responseJSON[response]['Food'];
+		var id = data.responseJSON[response]['id'];
+		console.log("Name: " + dinoName 
+		+ "\nOrder: " + order
+		+ "\nSuborder: " + suborder
+		+ "\nWhere: " + where
+		+ "\nWhen: " + when
+		+ "\nFood: " + food
+		);		
 	}/*
 	$("#displaywindow").html(array);
 	var d = JSON.stringify(array[0]);
