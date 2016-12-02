@@ -24,6 +24,47 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 	$json = json_encode($rows);
 	echo $json;
 }
+/*if(($_SERVER["REQUEST_METHOD"] == "GET")){
+	if(isset($_GET['name']) && isset($_GET['order']) && isset($_S['suborder']) && isset($_GET['when']) && isset($_GET['where']) && isset($_GET['food']) && isset($_GET['keyword')){
+	try{
+			//Retrieve and scrub input
+			$name = scrub($_GET['name']);
+			$order = scrub($_GET['order']);
+			$suborder = scrub($_GET['suborder']);
+			$when = scrub($_GET['when']);
+			$where = scrub($_GET['where']);
+			$food = scrub($_GET['food']);
+			$keyword = scrub($_GET['keyword']);
+			$command = new CrudCommands();
+			if($keyword == "Name"){
+				$command->SearchCommand($name, $keyword);
+			}
+			elseif($keyword == "Order"){
+				$command->SearchCommand($order, $keyword);
+			}
+			elseif($keyword == "Suborder"){
+				$command->SearchCommand($suborder, $keyword);
+			}
+			elseif($keyword == "When"){
+				$command->SearchCommand($when, $keyword);
+			}
+			elseif($keyword == "Where"){
+				$command->SearchCommand($where, $keyword);
+			}
+			elseif($keyword == "Food"){
+				$command->SearchCommand($food, $keyword);
+			}
+			else{
+				
+			}
+		}catch(Exception $e){
+				http_response_code(500);
+				echo "error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
+				die("Data Entry Error");
+		}
+	}
+}
+*/
 elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
 	//Do post stuff (Add)
 	//$name, $order, $suborder, $when, $where, $food

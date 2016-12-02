@@ -45,12 +45,12 @@
 				<td><input type='text'  id='suborder' required/></td>
 			</tr>
 			<tr>
-				<td>Where</td>
-				<td><input type='text' id='where' required/></td>
-			</tr>
-			<tr>
 				<td>When</td>
 				<td><input type='text' id='when' required/></td>
+			</tr>
+			<tr>
+				<td>Where</td>
+				<td><input type='text' id='where' required/></td>
 			</tr>
 			<tr>
 				<td>Food</td>
@@ -61,6 +61,46 @@
 			</tr>	
 			</form>
 			
+		</table>
+		
+		<table border = "1" class="table" align="center">
+			<tr><th align="center">Search a Dinosaur</th></tr>
+			<form onsubmit="searchDino()">			
+			<tr>
+				<td>Name</td>
+				<td><input type='text' id='sname'>
+				</td>
+			</tr>
+			<tr>
+			<td></td>
+			<td>
+				<menu id="Found dinosaurs"><div id="sresultholder"></div></menu>
+			</td>
+			</tr>
+			<tr>
+				<td>Order</td>
+				<td><input type='text' id='sorder'></td>
+			</tr>
+			<tr>
+				<td>Suborder</td>
+				<td><input type='text'  id='ssuborder'></td>
+			</tr>
+			<tr>
+				<td>When</td>
+				<td><input type='text' id='swhen'></td>
+			</tr>
+			<tr>
+				<td>Where</td>
+				<td><input type='text' id='swhere'></td>
+			</tr>
+			<tr>
+				<td>Food</td>
+				<td><input type='text' id='sfood'></td>
+			</tr>
+			<tr>
+				<td><input type="submit" align="center" value="Search Dinosaur"></td>
+			</tr>	
+			</form>
 		</table>
 
 		

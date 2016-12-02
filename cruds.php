@@ -58,6 +58,19 @@ class CrudCommands
         return $results;
     }
 	
+	public function SearchCommand($value, $keyword)
+	{
+		$stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE " . $keyword . " = " . $value . "");
+		$stmt->execute();
+		
+		$results = array();
+		
+		while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
+			$results[] = $row;
+		}
+		return $results;
+	}
+	
 	public function UpdateCommand($name, $order, $suborder, $when, $where, $food, $id)
     {
         $stmt = $this->conn->prepare("UPDATE dinosaurs SET `Name` = :Name, `Order` = :Order, `Suborder` = :Suborder, `When` = :When, `Where` = :where, `Food` = :food WHERE id = :id");

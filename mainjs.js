@@ -142,7 +142,7 @@ function checkInputString(input){
 }
 
 function addDino(){
-	
+	console.log("Entered addDino");
 	var name = $("#name").val().trim();
     var order = $("#order").val().trim();
     var suborder = $("#suborder").val().trim();
@@ -170,9 +170,62 @@ function addDino(){
 		complete: alertOfSuccess(),
 	}).done(alertOfSuccess());
 }
+/*
+function searchDino(){
+	
+	var name = $("#sname").val().trim();
+    var order = $("#sorder").val().trim();
+    var suborder = $("#ssuborder").val().trim();
+	var when = $("#swhen").val().trim();
+	var where = $("#swhere").val().trim();
+	var food = $("#sfood").val().trim();
+	
+	//Check each input field to verify which search to perform
+	var keyword = null;
+	if(name != null && name != ""){
+		keyword = "Name";
+	}
+	else if(order != null && order != ""){
+		keyword = "Order";
+	}
+	else if(suborder != null && suborder != ""){
+		keyword = "Suborder";
+	}
+	else if(when != null && when != ""){
+		keyword = "When";
+	}
+	else if(where != null && where != ""){
+		keyword = "Where";
+	}
+	else if(food != null && food != ""){
+		keyword = "Food";
+	}
+	else{
+		keyword = "ALL";
+	}
+	
+	$.ajax({
+		type: 'GET',
+		url: 'commandsAdmin.php',
+		dataType: 'json',
+		data: 
+		{
+		"name": name,
+		"order": order,
+		"suborder": suborder,
+		"when": when,
+		"where": where,
+		"food": food,
+		"keyword": keyword
+		},
+		complete: gotData
+	});//end of ajax call
 
+}
+*/
 function updateDino(id){
-	var conf = confirm("Are you sure you want to edit this movie?");
+	console.log("Entered updateDino");
+	var conf = confirm("Are you sure you want to edit this dinosaur?");
 	if (conf == true) {
 		
 		var name = null;
@@ -183,7 +236,7 @@ function updateDino(id){
 		var food = null;
 		
 		while (name == null || name == "" || name == "Enter name here" || !checkInputString(name)) {
-			name = prompt("Please enter the new movie name.", "Enter name here");
+			name = prompt("Please enter the new dinosaur name.", "Enter name here");
 			name = name.trim();
 		}
 				
@@ -197,7 +250,7 @@ function updateDino(id){
 				"suborder": suborder,	
 				"when": when,
 				"where": where,
-				"food": food,
+				"food": food
 			},
 			success: alertOfSuccess(),
 			type: "PUT",
@@ -208,7 +261,8 @@ function updateDino(id){
 }
 
 function deleteDino(id) {
-    var conf = confirm("Are you sure you want to delete this movie?");
+	console.log("Entered deleteDino");
+    var conf = confirm("Are you sure you want to delete this dinosaur?");
     if (conf == true) {
 		$.ajax({
 			url: "commandsAdmin.php",
@@ -232,12 +286,13 @@ function changeElement(targetElement, value){
 }
 
 function selectDino(id){	
+	console.log("Entered selectDino");
 	var url1 = 'https://api.themoviedb.org/3/movie/';
 	var url2 = '?api_key=38c7b812d037cbd445141717cac36859&language=en-US';
 	var url = url1 + '' + id + '' + url2;
 	
 	document.getElementById("resultholder").innerHTML = "";
-	document.getElementById("Retrieved dinos").innerHTML = "";
+	document.getElementById("Retrieved dinosaurs").innerHTML = "";
 	
 	$.ajax({
 		type: 'GET',
