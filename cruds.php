@@ -22,9 +22,10 @@ class CrudCommands
         $this->conn = null;
     } 
 	
-    public function CreateCommand($name, $order, $suborder, $when, $where, $food);
+    public function CreateCommand($name, $order, $suborder, $when, $where, $food)
     {
-        $stmt = $this->conn->prepare("INSERT INTO dinosaurs(Name, Order, Suborder, When, Where, Foood) VALUES (:name, :order, :suborder, :when, :where, :food)");
+		//$stmt = $this->conn->prepare("INSERT INTO movies(Name, Year_Released, Studio, Price) VALUES (:name, :year, :studio, :price)");
+        $stmt = $this->conn->prepare("INSERT INTO dinosaurs(`Name`, `Order`, `Suborder`, `When`, `Where`, `Food`) VALUES (:name, :order, :suborder, :when, :where, :food)");
         $stmt->bindParam(":name", $name);
         $stmt->bindParam(":order", $order);
         $stmt->bindParam(":suborder", $suborder);
@@ -59,7 +60,7 @@ class CrudCommands
 	
 	public function UpdateCommand($name, $order, $suborder, $when, $where, $food, $id)
     {
-        $stmt = $this->conn->prepare("UPDATE dinosaurs SET Name = :Name, Order = :Order, Suborder = :Suborder, When = :When, Where = :where, Food = :food WHERE id = :id");
+        $stmt = $this->conn->prepare("UPDATE dinosaurs SET `Name` = :Name, `Order` = :Order, `Suborder` = :Suborder, `When` = :When, `Where` = :where, `Food` = :food WHERE id = :id");
         $stmt->bindParam(":name", $name);
         $stmt->bindParam(":order", $order);
         $stmt->bindParam(":suborder", $suborder);
