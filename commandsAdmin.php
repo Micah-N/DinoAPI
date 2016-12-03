@@ -16,7 +16,7 @@ function scrub($input) {
 	$input = htmlspecialchars($input);
 	return $input;
 }
-
+/**/
 if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 	//Do get stuff
 	$command = new CrudCommands();
@@ -24,8 +24,9 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 	$json = json_encode($rows);
 	echo $json;
 }
-/*if(($_SERVER["REQUEST_METHOD"] == "GET")){
-	if(isset($_GET['name']) && isset($_GET['order']) && isset($_S['suborder']) && isset($_GET['when']) && isset($_GET['where']) && isset($_GET['food']) && isset($_GET['keyword')){
+/**/
+/*
+if(($_SERVER["REQUEST_METHOD"] == "GET")){
 	try{
 			//Retrieve and scrub input
 			$name = scrub($_GET['name']);
@@ -62,9 +63,10 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 				echo "error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
 				die("Data Entry Error");
 		}
-	}
+	
 }
 */
+/**/
 elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
 	//Do post stuff (Add)
 	//$name, $order, $suborder, $when, $where, $food
@@ -91,6 +93,7 @@ elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
 		http_response_code(500);
 	}
 }
+/**/
 elseif(($_SERVER["REQUEST_METHOD"] == "PUT")) {
 	//Do put stuff (Update)
 	//$name, $order, $suborder, $when, $where, $food, $id

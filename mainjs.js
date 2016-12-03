@@ -3,7 +3,10 @@
 function gotData(data){
 	console.log("Entered gotData");
 	console.log(data);
-	/* To show the entire JSON results use the following two lines*/
+	var table = "<table border='1'align='center'>"
+				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>Where</th><th>When</th><th>Food</th></tr>"
+				+"<tr>";
+				
 	for(response in data.responseJSON){
 		$("#displaywindow").html(JSON.stringify(data.responseJSON));
 		var dinoName = data.responseJSON[response]['Name'];
@@ -19,31 +22,10 @@ function gotData(data){
 		+ "\nWhere: " + where
 		+ "\nWhen: " + when
 		+ "\nFood: " + food
-		);		
-	}/*
-	$("#displaywindow").html(array);
-	var d = JSON.stringify(array[0]);
-	var j = JSON.parse(d);
-	console.dir(d);
-	console.log("Test:" + JSON.stringify(d[0]));
-	var resName = JSON.stringify(d[0]['Name']);
-	console.log(resName);
-	*/
-	/**/
-	/*
-	var table = "<table border='1'align='center'>"
-				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>Where</th><th>When</th><th>Food</th></tr>"
-				+"<tr>";
-	
-	for(var i in d){
-		var name = d[i]['Name'];
-		var order = d[i]['Order'];
-		var suborder= d[i]['Suborder'];
-		var where = d[i]['Where'];
-		var when = d[i]['When'];
-		var food = d[i]['Food'];
-		var id = d[i]['id'];
-		table += "<td>" + name + "</td>";
+		);
+
+		//
+		table += "<td>" + dinoName + "</td>";
 		table += "<td>" + order + "</td>";
 		table += "<td>" + suborder + "</td>";
 		table += "<td>" + where + "</td>";
@@ -51,18 +33,18 @@ function gotData(data){
 		table += "<td>" + food + "</td>";
 		table += ''
 		+		'<td><form name="editdino">'
-		+			'<input type="button" value="Edit" id="Edit Button" onclick="updateDino('+ d[i]['id'] +');">'
-		+			'<input type="hidden" value="' + d[i]['id'] + '" name="Row_to_Edit">'
+		+			'<input type="button" value="Edit" id="Edit Button" onclick="updateDino('+ id +');">'
+		+			'<input type="hidden" value="' + id + '" name="Row_to_Edit">'
 		+		'</form></td>'		
 		+	'<td><form name="deletedino">'
-		+			'<input type="button" value="Delete" id="Delete Button" onclick="deleteDino('+ d[i]['id'] + ');">'
-		+			'<input type="hidden" value="' + d[i]['id'] + '" name="Row_to_Delete">'
+		+			'<input type="button" value="Delete" id="Delete Button" onclick="deleteDino('+ id + ');">'
+		+			'<input type="hidden" value="' + id + '" name="Row_to_Delete">'
 		+		'</form></td>'
 		+'</tr>';
 	}
 	table+="</tr></table>";
 	$("#rowdisplaywindow").html(table);
-	/**/
+	
 }//end of gotData
 
 function readDinos() {
@@ -170,7 +152,7 @@ function addDino(){
 		complete: alertOfSuccess(),
 	}).done(alertOfSuccess());
 }
-/*
+/**/
 function searchDino(){
 	
 	var name = $("#sname").val().trim();
@@ -182,6 +164,7 @@ function searchDino(){
 	
 	//Check each input field to verify which search to perform
 	var keyword = null;
+	/*
 	if(name != null && name != ""){
 		keyword = "Name";
 	}
@@ -203,7 +186,8 @@ function searchDino(){
 	else{
 		keyword = "ALL";
 	}
-	
+	*/
+	keyword = "Name";
 	$.ajax({
 		type: 'GET',
 		url: 'commandsAdmin.php',
@@ -218,11 +202,14 @@ function searchDino(){
 		"food": food,
 		"keyword": keyword
 		},
-		complete: gotData
+		complete: function(data){
+			console.log("Entered complete of searchDino");
+			console.dir(data);
+		}
 	});//end of ajax call
 
 }
-*/
+/**/
 function updateDino(id){
 	console.log("Entered updateDino");
 	var conf = confirm("Are you sure you want to edit this dinosaur?");
