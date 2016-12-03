@@ -63,7 +63,7 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")){
 			$command = new CrudCommands();
 			if(isset($_GET['name'])){
 				$name = $_GET['name'];
-				$keyword = "Name";
+				$keyword = $_GET['keyword'];
 				$rows = $command->SearchCommand($name, $keyword);
 			}
 			else{
