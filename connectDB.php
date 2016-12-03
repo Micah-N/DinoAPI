@@ -16,9 +16,9 @@ define('charset', 'utf8');
 /*	The following lines are for setting up the db connection for the web hosting service: 
 //Use the below technique
 define('host', 'localhost');
-define('user', 'micahnet_micah');
+define('user', 'micahnet');
 define('pass', 'Mkn.1523');
-define('db', 'dinosaurs');
+define('db', 'micahnet_dinosaurs');
 define('charset', 'utf8');
 /**/
  
