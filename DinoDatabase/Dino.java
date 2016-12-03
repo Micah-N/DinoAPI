@@ -59,8 +59,11 @@ public class Dino
       }
       return res;
    }
+   
+   //This will create a database and table for you to use
    public static void sqlfill(String[][] results) throws SQLException{
- 
+
+        //Change these to use on your server
         String url = "jdbc:mysql://localhost/";
         String user = "root";
         String password = "";
