@@ -4,7 +4,7 @@ function gotData(data){
 	console.log("Entered gotData");
 	console.log(data);
 	var table = "<table border='1'align='center'>"
-				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>Where</th><th>When</th><th>Food</th></tr>"
+				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>When</th><th>Where</th><th>Food</th></tr>"
 				+"<tr>";
 				
 	for(response in data.responseJSON){
@@ -12,15 +12,15 @@ function gotData(data){
 		var dinoName = data.responseJSON[response]['Name'];
 		var order = data.responseJSON[response]['Order'];
 		var suborder = data.responseJSON[response]['Suborder'];
-		var where = data.responseJSON[response]['Where'];
 		var when = data.responseJSON[response]['When'];
+		var where = data.responseJSON[response]['Where'];
 		var food = data.responseJSON[response]['Food'];
 		var id = data.responseJSON[response]['id'];
 		console.log("Name: " + dinoName 
 		+ "\nOrder: " + order
 		+ "\nSuborder: " + suborder
-		+ "\nWhere: " + where
 		+ "\nWhen: " + when
+		+ "\nWhere: " + where
 		+ "\nFood: " + food
 		);
 
@@ -28,8 +28,8 @@ function gotData(data){
 		table += "<td>" + dinoName + "</td>";
 		table += "<td>" + order + "</td>";
 		table += "<td>" + suborder + "</td>";
-		table += "<td>" + where + "</td>";
 		table += "<td>" + when + "</td>";
+		table += "<td>" + where + "</td>";
 		table += "<td>" + food + "</td>";
 		table += ''
 		+		'<td><form name="editdino">'
@@ -146,7 +146,8 @@ function addDino(){
 		"suborder": suborder,
 		"when": when,
 		"where": where,
-		"food": food
+		"food": food,
+		"action": "CREATE"
 		},
 		type: "POST",
 		complete: alertOfSuccess(),
@@ -209,7 +210,7 @@ function searchDino(){
 	});//end of ajax call
 
 }
-/**/
+
 function updateDino(id){
 	console.log("Entered updateDino");
 	var conf = confirm("Are you sure you want to edit this dinosaur?");
@@ -226,23 +227,41 @@ function updateDino(id){
 			name = prompt("Please enter the new dinosaur name.", "Enter name here");
 			name = name.trim();
 		}
+		while (order == null || order == "" || order == "Enter order here" || !checkInputString(order)) {
+			order = prompt("Please enter the new dinosaur order.", "Enter order here");
+			order = order.trim();
+		}
+		while (suborder == null || suborder == "" || suborder == "Enter suborder here" || !checkInputString(suborder)) {
+			suborder = prompt("Please enter the new dinosaur suborder.", "Enter suborder here");
+			suborder = suborder.trim();
+		}
+		while (when == null || when == "" || when == "Enter what era here" || !checkInputString(when)) {
+			when = prompt("Please enter the new dinosaur era.", "Enter era here");
+			when = when.trim();
+		}
+		while (where == null || where == "" || where == "Enter area here" || !checkInputString(where)) {
+			where = prompt("Please enter the new dinosaur area.", "Enter area here");
+			where = where.trim();
+		}
+		while (food == null || food == "" || food == "Enter diet here" || !checkInputString(food)) {
+			food = prompt("Please enter the new dinosaur diet.", "Enter diet here");
+			food = food.trim();
+		}
 				
 		$.ajax({
-			url: "commandsAdmin.php",
-			data:
-			{
-				"id": id,
-				"name": name,
-				"order": order,
-				"suborder": suborder,	
-				"when": when,
-				"where": where,
-				"food": food
-			},
-			success: alertOfSuccess(),
 			type: "PUT",
-			dataType: "jsonp"
-		}).done(alertOfSuccess());
+			dataType: "json",
+			url: "commandsAdmin.php?id=" + id 
+			+"&name=" + name 
+			+ "&order=" + order 
+			+ "&suborder=" + suborder
+			+ "&when=" + when 
+			+ "&where=" + where 
+			+ "&food=" + food,
+			complete: function(data){
+				console.log("Data: " + JSON.stringify(data));
+			}
+		});
     }
 	readDinos();
 }
@@ -252,17 +271,16 @@ function deleteDino(id) {
     var conf = confirm("Are you sure you want to delete this dinosaur?");
     if (conf == true) {
 		$.ajax({
-			url: "commandsAdmin.php",
-			data:
-			{
-				"id": id
-			},
+			url: "commandsAdmin.php?id=" + id,
 			success: alertOfSuccess(),
 			type: "DELETE",
-			dataType: "json"
+			dataType: "json",
+			complete: function(data){
+				console.log("Deleted something " + JSON.stringify(data));
+			}
 		}).done(alertOfSuccess());
-		readDinos();
     }
+	readDinos();
 }
 
 function changeElement(targetElement, value){
@@ -314,3 +332,14 @@ function selectDino(id){
 		}
     });
 }//end of selectDino
+
+function getOptions(){
+	$.ajax({
+		type: 'OPTIONS',
+		url: 'commandsAdmin.php',
+		dataType: 'json',
+		success: function(json){
+			$("#optionwindow").html(JSON.stringify(json));
+		}
+	});
+}//end of getOptions

@@ -67,7 +67,7 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")){
 }
 */
 /**/
-elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
+elseif(($_SERVER["REQUEST_METHOD"] == "POST") && ($_POST['action'] == "CREATE")) {
 	//Do post stuff (Add)
 	//$name, $order, $suborder, $when, $where, $food
 	if(isset($_POST['name']) && isset($_POST['order']) && isset($_POST['suborder']) && isset($_POST['when']) && isset($_POST['where']) && isset($_POST['food'])){
@@ -93,20 +93,20 @@ elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
 		http_response_code(500);
 	}
 }
-/**/
+
 elseif(($_SERVER["REQUEST_METHOD"] == "PUT")) {
 	//Do put stuff (Update)
 	//$name, $order, $suborder, $when, $where, $food, $id
-	if(isset($_PUT['id']) && isset($_PUT['name'])  && isset($_PUT['order']) && isset($_PUT['suborder']) && isset($_PUT['when']) && isset($_PUT['where']) && isset($_PUT['food'])){
+	if(isset($_REQUEST['id']) && isset($_REQUEST['name'])  && isset($_REQUEST['order']) && isset($_REQUEST['suborder']) && isset($_REQUEST['when']) && isset($_REQUEST['where']) && isset($_REQUEST['food'])){
 		try{
 			//Retrieve and scrub input
-			$id = scrub($_PUT['id']);		
-			$name = scrub($_PUT['name']);
-			$order = scrub($_PUT['order']);
-			$suborder = scrub($_PUT['suborder']);
-			$when = scrub($_PUT['when']);
-			$where = scrub($_PUT['where']);
-			$food = scrub($_PUT['food']);
+			$id = scrub($_REQUEST['id']);		
+			$name = scrub($_REQUEST['name']);
+			$order = scrub($_REQUEST['order']);
+			$suborder = scrub($_REQUEST['suborder']);
+			$when = scrub($_REQUEST['when']);
+			$where = scrub($_REQUEST['where']);
+			$food = scrub($_REQUEST['food']);
  
 			$command = new CrudCommands(); 
 			$command->UpdateCommand($name, $order, $suborder, $when, $where, $food, $id);
@@ -120,34 +120,24 @@ elseif(($_SERVER["REQUEST_METHOD"] == "PUT")) {
 	else{
 		echo "PUT variables aren't set.";
 		http_response_code(500);
-	}
-	
+	}	
 }
+
 elseif(($_SERVER["REQUEST_METHOD"] == "DELETE")) {
 	//Do delete stuff (Delete)
-	if(isset($_DELETE['id']) && isset($_DELETE['id']) != ""){
-		try{
-			//Retrieve and scrub id
-			$id = scrub($_DELETE['id']);
-			$command = new CrudCommands();
-			$command->DeleteCommand($id);
-		}catch(Exception $e){
-			http_response_code(500);
-			echo "error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
-			die("Data Entry Error");
-		}	
-	}
-	else{
-		echo "DELETE variables aren't set.";
-		http_response_code(500);
-	}
+	
+	$id = $_REQUEST['id'];
+	$command = new CrudCommands();
+	$command->DeleteCommand($id);
 }
+/**/
+
 elseif(($_SERVER["REQUEST_METHOD"] == "OPTIONS")) {
 	//Do options stuff (Display options)
 	$arr = array(
         "GET" => "Search data based on specified input parameters",
         "POST" => "Add data",
-		"PUT" => "Updata data",
+		"PUT" => "Update data",
 		"DELETE" => "Delete data",
 		"OPTIONS" =>"Display the available options"
     );

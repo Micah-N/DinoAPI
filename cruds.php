@@ -60,7 +60,11 @@ class CrudCommands
 	
 	public function SearchCommand($value, $keyword)
 	{
-		$stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE " . $keyword . " = " . $value . "");
+		//$stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE (`Name` LIKE %" . $value . "%)";
+		
+		 $stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE (`Name` LIKE '%".$value."%') OR
+		 (`Order` LIKE '%".$value."%')");
+		
 		$stmt->execute();
 		
 		$results = array();
@@ -73,7 +77,7 @@ class CrudCommands
 	
 	public function UpdateCommand($name, $order, $suborder, $when, $where, $food, $id)
     {
-        $stmt = $this->conn->prepare("UPDATE dinosaurs SET `Name` = :Name, `Order` = :Order, `Suborder` = :Suborder, `When` = :When, `Where` = :where, `Food` = :food WHERE id = :id");
+        $stmt = $this->conn->prepare("UPDATE dinosaurs SET `Name` = :name, `Order` = :order, `Suborder` = :suborder, `When` = :when, `Where` = :where, `Food` = :food WHERE id = :id");
         $stmt->bindParam(":name", $name);
         $stmt->bindParam(":order", $order);
         $stmt->bindParam(":suborder", $suborder);

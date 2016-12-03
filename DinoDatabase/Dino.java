@@ -75,23 +75,23 @@ public class Dino
             
             Statement stt = con.createStatement();
             
-            stt.execute("CREATE DATABASE IF NOT EXISTS Dino");
-            stt.execute("USE Dino");
+            stt.execute("CREATE DATABASE IF NOT EXISTS dinosaurs");
+            stt.execute("USE dinosaurs");
            
-            stt.execute("DROP TABLE IF EXISTS dinos");
-            stt.execute("CREATE TABLE dinos (" +
+            stt.execute("DROP TABLE IF EXISTS dinosaurs");
+            stt.execute("CREATE TABLE dinosaurs (" +
             		"id BIGINT NOT NULL AUTO_INCREMENT,"
-                    + "name VARCHAR(50),"
-                    + "odr VARCHAR(50),"
-                    + "subodr VARCHAR(50),"
-                    + "time VARCHAR(50),"
-                    + "place VARCHAR(100),"
-                    + "food VARCHAR(50),"
+                    + "`Name` VARCHAR(50),"
+                    + "`Order` VARCHAR(50),"
+                    + "`Suborder` VARCHAR(50),"
+                    + "`When` VARCHAR(50),"
+                    + "`Where` VARCHAR(100),"
+                    + "`Food` VARCHAR(50),"
                     + "PRIMARY KEY(id)"
                     + ")");
 
             for(int i = 0; i < results.length; i++){
-            	stt.execute("INSERT INTO dinos (name, odr, subodr, time, place, food) VALUES" + 
+            	stt.execute("INSERT INTO dinosaurs (`Name`, `Order`, `Suborder`, `When`, `Where`, `Food`) VALUES" + 
                             "('"+results[i][0]+"', '"+results[i][1]+"', '"+results[i][2]+"', '"+results[i][3]+"', '"+results[i][4]+"', '"+results[i][5]+"')");
             }
 
