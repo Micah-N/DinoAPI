@@ -100,7 +100,7 @@ function queryTMDB(){
 //Ready Function
 $(document).ready(function () {
 	console.log("Ready!");
-    readDinos();
+    //readDinos(); // <--Uncomment this line to display all dino entries
 	//$('#name').keyup(queryTMDB);	
 });
 
@@ -152,6 +152,7 @@ function addDino(){
 		type: "POST",
 		complete: alertOfSuccess(),
 	}).done(alertOfSuccess());
+	readDinos();
 }
 /**/
 function searchDino(){
@@ -190,24 +191,28 @@ function searchDino(){
 	*/
 	keyword = "Name";
 	$.ajax({
-		type: 'GET',
-		url: 'commandsAdmin.php',
-		dataType: 'json',
+		type: "GET",
+		dataType: "json",
+		async: false,
+		url: "commandsAdmin.php",//?name=" + name
+		/*
+		+ "&order=" + order 
+		+ "&suborder=" + suborder
+		+ "&when=" + when 
+		+ "&where=" + where 
+		+ "&food=" + food
+		+ "&keyword=" + keyword,
+		*/
 		data: 
 		{
-		"name": name,
-		"order": order,
-		"suborder": suborder,
-		"when": when,
-		"where": where,
-		"food": food,
-		"keyword": keyword
+			'name': name,
+			'keyword': keyword
 		},
 		complete: function(data){
-			console.log("Entered complete of searchDino");
-			console.dir(data);
+			$("#displaywindow").html(JSON.stringify(data.responseJSON));
 		}
 	});//end of ajax call
+	//readDinos();
 
 }
 

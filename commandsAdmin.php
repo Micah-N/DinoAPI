@@ -16,7 +16,7 @@ function scrub($input) {
 	$input = htmlspecialchars($input);
 	return $input;
 }
-/**/
+/* This method is used to read ALL entries
 if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 	//Do get stuff
 	$command = new CrudCommands();
@@ -24,11 +24,12 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 	$json = json_encode($rows);
 	echo $json;
 }
-/**/
-/*
+*/
+/* This method is used to search SPECIFIC entries */
 if(($_SERVER["REQUEST_METHOD"] == "GET")){
 	try{
 			//Retrieve and scrub input
+			/*
 			$name = scrub($_GET['name']);
 			$order = scrub($_GET['order']);
 			$suborder = scrub($_GET['suborder']);
@@ -58,14 +59,26 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")){
 			else{
 				
 			}
+			*/
+			$command = new CrudCommands();
+			if(isset($_GET['name'])){
+				$name = $_GET['name'];
+				$keyword = "Name";
+				$rows = $command->SearchCommand($name, $keyword);
+			}
+			else{
+				$rows = $command->ReadCommand();
+			}
+			$json = json_encode($rows);
+			echo $json;
 		}catch(Exception $e){
 				http_response_code(500);
-				echo "error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
+				echo "Name not found error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
 				die("Data Entry Error");
 		}
 	
 }
-*/
+/**/
 /**/
 elseif(($_SERVER["REQUEST_METHOD"] == "POST") && ($_POST['action'] == "CREATE")) {
 	//Do post stuff (Add)
