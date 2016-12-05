@@ -51,7 +51,7 @@ function readDinos() {
 	console.log("Entered readDinos");
 	$.ajax({
 		type: 'GET',
-		url: 'commandsAdmin.php',
+		url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
 		dataType: 'json',
 		data: 'data',
 		complete: gotData
@@ -100,7 +100,7 @@ function queryTMDB(){
 //Ready Function
 $(document).ready(function () {
 	console.log("Ready!");
-    //readDinos(); // <--Uncomment this line to display all dino entries
+    readDinos(); // <--Uncomment this line to display all dino entries
 	//$('#name').keyup(queryTMDB);	
 });
 
@@ -138,7 +138,7 @@ function addDino(){
 	}
 		 
 	$.ajax({
-		url:  "commandsAdmin.php",
+		url:  "http://micahnetz.com/dinoAPI/commandsAdmin.php",
 		data:
 		{
 		"name": name,
@@ -146,8 +146,7 @@ function addDino(){
 		"suborder": suborder,
 		"when": when,
 		"where": where,
-		"food": food,
-		"action": "CREATE"
+		"food": food
 		},
 		type: "POST",
 		complete: alertOfSuccess(),
@@ -166,7 +165,7 @@ function searchDino(){
 	
 	//Check each input field to verify which search to perform
 	var keyword = null;
-	/*
+	
 	if(name != null && name != ""){
 		keyword = "Name";
 	}
@@ -188,24 +187,19 @@ function searchDino(){
 	else{
 		keyword = "ALL";
 	}
-	*/
-	keyword = "Name";
 	$.ajax({
 		type: "GET",
 		dataType: "json",
 		async: false,
-		url: "commandsAdmin.php",//?name=" + name
-		/*
-		+ "&order=" + order 
-		+ "&suborder=" + suborder
-		+ "&when=" + when 
-		+ "&where=" + where 
-		+ "&food=" + food
-		+ "&keyword=" + keyword,
-		*/
-		data: 
+		url: "http://micahnetz.com/dinoAPI/commandsAdmin.php",
+		data:
 		{
 			'name': name,
+			'order': order,
+			'suborder': suborder,
+			'when': when,
+			'where': where,
+			'food': food,
 			'keyword': keyword
 		},
 		complete: function(data){
@@ -256,7 +250,7 @@ function updateDino(id){
 		$.ajax({
 			type: "PUT",
 			dataType: "json",
-			url: "commandsAdmin.php?id=" + id 
+			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id 
 			+"&name=" + name 
 			+ "&order=" + order 
 			+ "&suborder=" + suborder
@@ -276,7 +270,7 @@ function deleteDino(id) {
     var conf = confirm("Are you sure you want to delete this dinosaur?");
     if (conf == true) {
 		$.ajax({
-			url: "commandsAdmin.php?id=" + id,
+			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id,
 			success: alertOfSuccess(),
 			type: "DELETE",
 			dataType: "json",
@@ -341,7 +335,7 @@ function selectDino(id){
 function getOptions(){
 	$.ajax({
 		type: 'OPTIONS',
-		url: 'commandsAdmin.php',
+		url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
 		dataType: 'json',
 		success: function(json){
 			$("#optionwindow").html(JSON.stringify(json));

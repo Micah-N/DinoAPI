@@ -7,6 +7,9 @@ Note: cruds.php is the file in which I do my PDO prepared statement querying,
 */
 
 header('Content-type: application/json');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+header('Access-Control-Allow-Headers: Authorization, Content-Type');
+header('Access-Control-Allow-Origin: *');
 require 'cruds.php';
 
 //Clean data function
@@ -28,43 +31,36 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")) {
 /* This method is used to search SPECIFIC entries */
 if(($_SERVER["REQUEST_METHOD"] == "GET")){
 	try{
-			//Retrieve and scrub input
-			/*
-			$name = scrub($_GET['name']);
-			$order = scrub($_GET['order']);
-			$suborder = scrub($_GET['suborder']);
-			$when = scrub($_GET['when']);
-			$where = scrub($_GET['where']);
-			$food = scrub($_GET['food']);
-			$keyword = scrub($_GET['keyword']);
 			$command = new CrudCommands();
-			if($keyword == "Name"){
-				$command->SearchCommand($name, $keyword);
-			}
-			elseif($keyword == "Order"){
-				$command->SearchCommand($order, $keyword);
-			}
-			elseif($keyword == "Suborder"){
-				$command->SearchCommand($suborder, $keyword);
-			}
-			elseif($keyword == "When"){
-				$command->SearchCommand($when, $keyword);
-			}
-			elseif($keyword == "Where"){
-				$command->SearchCommand($where, $keyword);
-			}
-			elseif($keyword == "Food"){
-				$command->SearchCommand($food, $keyword);
-			}
-			else{
-				
-			}
-			*/
-			$command = new CrudCommands();
-			if(isset($_GET['name'])){
-				$name = $_GET['name'];
-				$keyword = $_GET['keyword'];
-				$rows = $command->SearchCommand($name, $keyword);
+			if(isset($_GET['name']) || isset($_GET['order']) || isset($_GET['suborder']) || isset($_GET['when']) || isset($_GET['where']) || isset($_GET['food'])){
+				$name = scrub($_GET['name']);
+				$order = scrub($_GET['order']);
+				$suborder = scrub($_GET['suborder']);
+				$when = scrub($_GET['when']);
+				$where = scrub($_GET['where']);
+				$food = scrub($_GET['food']);
+				$keyword = scrub($_GET['keyword']);
+				if($keyword == "Name"){
+					$rows = $command->SearchCommand($name, $keyword);
+				}
+				elseif($keyword == "Order"){
+					$rows = $command->SearchCommand($order, $keyword);
+				}
+				elseif($keyword == "Suborder"){
+					$rows = $command->SearchCommand($suborder, $keyword);
+				}
+				elseif($keyword == "When"){
+					$rows = $command->SearchCommand($when, $keyword);
+				}
+				elseif($keyword == "Where"){
+					$rows = $command->SearchCommand($where, $keyword);
+				}
+				elseif($keyword == "Food"){
+					$rows = $command->SearchCommand($food, $keyword);
+				}
+				else{
+					$rows = $command->ReadCommand();
+				}
 			}
 			else{
 				$rows = $command->ReadCommand();
@@ -79,12 +75,13 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")){
 	
 }
 /**/
+
 /**/
-elseif(($_SERVER["REQUEST_METHOD"] == "POST") && ($_POST['action'] == "CREATE")) {
+elseif(($_SERVER["REQUEST_METHOD"] == "POST")) {
 	//Do post stuff (Add)
 	//$name, $order, $suborder, $when, $where, $food
-	if(isset($_POST['name']) && isset($_POST['order']) && isset($_POST['suborder']) && isset($_POST['when']) && isset($_POST['where']) && isset($_POST['food'])){
-	try{
+	if(isset($_GET['name']) || isset($_GET['order']) || isset($_GET['suborder']) || isset($_GET['when']) || isset($_GET['where']) || isset($_GET['food'])){
+			try{
 			//Retrieve and scrub input
 			$name = scrub($_POST['name']);
 			$order = scrub($_POST['order']);
@@ -109,7 +106,6 @@ elseif(($_SERVER["REQUEST_METHOD"] == "POST") && ($_POST['action'] == "CREATE"))
 
 elseif(($_SERVER["REQUEST_METHOD"] == "PUT")) {
 	//Do put stuff (Update)
-	//$name, $order, $suborder, $when, $where, $food, $id
 	if(isset($_REQUEST['id']) && isset($_REQUEST['name'])  && isset($_REQUEST['order']) && isset($_REQUEST['suborder']) && isset($_REQUEST['when']) && isset($_REQUEST['where']) && isset($_REQUEST['food'])){
 		try{
 			//Retrieve and scrub input
@@ -137,8 +133,7 @@ elseif(($_SERVER["REQUEST_METHOD"] == "PUT")) {
 }
 
 elseif(($_SERVER["REQUEST_METHOD"] == "DELETE")) {
-	//Do delete stuff (Delete)
-	
+	//Do delete stuff (Delete)	
 	$id = $_REQUEST['id'];
 	$command = new CrudCommands();
 	$command->DeleteCommand($id);

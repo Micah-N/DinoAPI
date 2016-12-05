@@ -60,7 +60,7 @@ class CrudCommands
 	
 	public function SearchCommand($value, $keyword)
 	{
-		$stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE (`Name` LIKE '%".$value."%') OR
+		$stmt = $this->conn->prepare("SELECT * FROM dinosaurs WHERE (`". $keyword ."` LIKE '%".$value."%') OR
 		(`Order` LIKE '%".$value."%')");
 		$stmt->execute();
 		

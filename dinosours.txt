@@ -1,0 +1,1987 @@
+Agrosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: North East Australia or England (Europe);   Food: Plants
+
+Aliwalia
+Order: not known;   Suborder: not known
+When: Late Triassic;   Where: South Africa;   Food: unknown
+
+Archtosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Arctic North America;   Food: unknown
+
+Azendohsaurus
+Order: Saurischia;   Suborder: Prosauropoda 
+When: Late Triassic;   Where: Morocco (America);   Food: Plants
+
+Blikanasaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: South Africa;   Food: Plants
+
+Camelotia
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: England (Europe);   Food: Plants
+
+Caseosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Texas (America);   Food: Meat
+
+Chindesaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Arizona *America);   Food: Meat
+
+Coelophysis
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: New Mexico,;   Food: Meat
+
+Coloradisaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Plants
+
+Dolichosuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Meat
+
+Eoraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Meat
+
+Euskelosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: South Africa;   Food: Plants
+
+Fenestrosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Meat
+
+Gerrothorax
+Order: ;   Suborder: 
+When: Late Triassic;   Where: Sweden (Europe);   Food: 
+
+Halticosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Meat
+
+Herrerasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Meat
+
+Ischisaurus
+Order: Saurischia;   Suborder: not known
+When: Late Triassic;   Where: Argentina (America);   Food: Meat
+
+Likhoelesaurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Late Triassic;   Where: South Africa;   Food: unknown
+
+Liliensternus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Meat
+
+Longosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: New Mexico;   Food: Meat
+
+Melanorosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: South Africa;   Food: Plants
+
+Mussaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Plants
+
+Pachysauriscus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Plants
+
+Palaeosauriscus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: England (Europe);   Food: Plants
+
+Pekinosaurus
+Order: Ornithischia;   Suborder: unknown
+When: Late Triassic;   Where: North Carolina (America);   Food: Plants
+
+Picrodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Triassic;   Where: England (Europe);   Food: Plants
+
+Pisanosaurus
+Order: Ornithischia;   Suborder: not known
+When: Late Triassic;   Where: Argentina (America);   Food: Plants
+
+Plateosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Triassic;   Where: Germany, France,;   Food: Plants
+
+Procompsognathus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Wurttemberg (Germany) (Europe);   Food: Plants
+
+Protoavis
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Texas (America);   Food: Meat
+
+Pterospondylus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Halbertstadt (Germany) (Europe);   Food: Meat
+
+Revueltosaurus
+Order: Ornithischia;   Suborder: not known
+When: Late Triassic;   Where: New Mexico,;   Food: Plants
+
+Rioarribasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: New Mexico,;   Food: Meat
+
+Riojasaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: Argentina (America);   Food: Plants
+
+Roccosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Triassic;   Where: Africa;   Food: Plants
+
+Saltopus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Scotland (Europe);   Food: Meat
+A small, light dinosaur about the size of a cat.
+Sellosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Plants
+
+Shuvosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Texas (America);   Food: Meat & Plants
+
+Spondylosoma
+Order: unknown;   Suborder: unknown
+When: Late Triassic;   Where: Brazil (America);   Food: unknown
+
+Staurikosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Brazil, Argentina (America);   Food: Meat
+
+Tanystrosuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: Germany (Europe);   Food: Meat
+
+Technosaurus
+Order: Ornithischia;   Suborder: not known
+When: Late Triassic;   Where: Texas (America);   Food: Plants
+
+Thecodontosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Triassic;   Where: England (Europe);   Food: Plants
+
+Thotobolosaurus
+Order: Saurischia;   Suborder: Saruopodomorpha
+When: Late Triassic;   Where: Africa;   Food: Plants
+
+Velocipes
+Order: Saurischia;   Suborder: Theropoda 
+When: Late Triassic;   Where: Germany (Europe);   Food: Meat
+
+Walkeria
+Order: Saurischia;   Suborder: Theropoda
+When: Late Triassic;   Where: India (Asia);   Food: Meat
+
+Zatomus
+Order: Saurischia;   Suborder: Theropoda 
+When: Late Triassic;   Where: North Carolina (America);   Food: Meat 
+
+Dachongosaurus
+Order: Saurischia;   Suborder: Saruopodomorpha
+When: Jurassic;   Where: China (Asia);   Food: Plants
+
+Ngexisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Jurassic;   Where: China (Asia);   Food: Meat
+
+Plesiosaurus
+Order: ;   Suborder: 
+When: Jurassic;   Where: England, Germany (Europe);   Food: Fish
+
+Tianchungosaurus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Jurassic;   Where: China (Asia);   Food: Plants
+
+Abrictosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: Southern Africa;   Food: Plants
+
+Ammosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Early Jurassic;   Where: Connecticut,;   Food: Plants
+
+Anchisaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Early Jurassic;   Where: Massachusetts,;   Food: Plants
+
+Aristosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: South Africa;   Food: Plants
+
+Barapasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: India (Asia);   Food: Plants
+
+Dandakosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: India (Asia);   Food: Meat
+
+Deinchungosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Dilophosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: Arizona (America);   Food: Meat
+
+Emausaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Early Jurassic;   Where: North. Germany (Europe);   Food: Plants
+
+Fabrosaurus
+Order: Ornithischia;   Suborder: not known
+When: Early Jurassic;   Where: Lesotho (Africa);   Food: Plants
+
+Geranosaurus
+Order: Ornithischia;   Suborder: Genasauria
+When: Early Jurassic;   Where: South Africa;   Food: Plants
+
+Heterodontosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: South Africa;   Food: Plants
+
+Kotasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: India (Asia);   Food: Plants
+
+Kunmingosaurus
+Order: Saurischia;   Suborder: Saruopodomorpha
+When: Early Jurassic;   Where: Yunnan Province (China) (Asia);   Food: Plants
+
+Lanasaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: South Africa;   Food: Plants & Insects
+
+Lesothosaurus
+Order: Ornithischia;   Suborder: unknown
+When: Early Jurassic;   Where: South Africa;   Food: Plants
+
+Lufengosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Lukousaurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Early Jurassic;   Where: China (Asia);   Food: Meat
+
+Lusitanosaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Early Jurassic;   Where: Portugal (Europe);   Food: Plants
+
+Lycorhinus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: South Africa;   Food: Plants
+
+Massospondylus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Early Jurassic;   Where: South Africa, Arizona (America);   Food: Plants
+
+Ohmdenosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: Germany (Europe);   Food: Plants
+
+Oshanosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Podokesaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: Massachusetts;   Food: Meat
+
+Rhoetosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: Queensland (Australia);   Food: Plants
+
+Sarcosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: England (Europe);   Food: Meat
+
+Scelidosaurus
+Order: Ornithischia;   Suborder: Ankylosaura
+When: Early Jurassic;   Where: England (Europe);   Food: Plants
+
+Scolosaurus
+Order: Ornithischia;   Suborder: Thyreophora 
+When: Early Jurassic;   Where: Arizona (America);   Food: Plants
+
+Scutellosaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Early Jurassic;   Where: Arizona (America);   Food: Plants
+
+Segisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: Arizona (America);   Food: Meat
+
+Sinosaurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Early Jurassic;   Where: China (Asia);   Food: Meat
+
+Syntarsus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Jurassic;   Where: Zimbabwe (Africa), Arizona (America);   Food: Meat
+
+Tatisaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Vulcanodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: Zimbabwe (Africa);   Food: Plants
+
+Yimenosaurus
+Order: Saurischia;   Suborder: Prosauropod
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Yunnanosaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Zizhongosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Jurassic;   Where: China (Asia);   Food: Plants
+
+Agilisaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Amygdalodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: Argentina (America);   Food: Plants
+
+Bellusaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Callovasaurus
+Order: Ornithischia;   Suborder: Iguanodontia
+When: Middle Jurassic;   Where: England (Europe);   Food: Plants
+
+Cardiodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: England (Europe);   Food: Meat
+
+Cetiosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: England (Europe), Morocco (Africa);   Food: Plants
+
+Chuanjiesaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plant
+
+Damalasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Datousaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Eustreptospondylus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: England (Europe);   Food: Meat
+
+Gasosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Meat
+
+Huayangosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Iliosuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: England (Europe);   Food: Meat
+
+Jiangjunmiaosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: Northwest China (Asia);   Food: Meat
+
+Jurassosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Middle Jurassic;   Where: Xinjiang Province (China) (Asia);   Food: Plants
+
+Kaijagosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Meat
+
+Klamelisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Lapparentosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: Madagascar (Africa);   Food: Plants
+
+Lexovisaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Middle Jurassic;   Where: England (Europe);   Food: Plants
+
+Megalosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: England, France,;   Food: Plants
+
+Patagosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: Argentina (America);   Food: Plants
+
+Piatnitzkysaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: Argentina (America);   Food: Meat
+
+Piveteausaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: France (Europe);   Food: Meat
+
+Poekilopleuron
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: France,;   Food: Meat
+
+Proceratosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: England (Europe);   Food: Meat
+
+Protognathosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Sarcolestes
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Middle Jurassic;   Where: England (Europe);   Food: Plants
+
+Shunosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Volkheimeria
+Order: Saurischia;   Suborder: Sauropoda
+When: Middle Jurassic;   Where: Argentina (America);   Food: Plants
+
+Xiaosaurus
+Order: Ornithischia;   Suborder: unknown
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Xuanhanosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Meat
+
+Yandusaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Middle Jurassic;   Where: China (Asia);   Food: Plants
+
+Algoasuarus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: South Africa;   Food: Plants
+
+Allosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Colorado, Utah,;   Food: Meat
+
+Alocodon
+Order: Ornithischia;   Suborder: not known
+When: Late Jurassic;   Where: Portugal (Europe);   Food: Plants
+
+Amphicoelias
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Apatosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado, Utah (America);   Food: Plants
+
+Barosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Western North America,;   Food: Plants
+
+Bihariosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Eastern Europe;   Food: Plants
+
+Bothriospondylus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Madagascar (Africa);   Food: Plants
+
+Brachiosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America), Tanzania (Africa);   Food: Plants
+
+Camarasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado, Utah,;   Food: Plants
+
+Camptosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Wyoming,;   Food: Plants
+
+Cathetosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Ceratosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Colorado (America),;   Food: Meat
+
+Changdusaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Chaoyangosaurus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Chinsakiangosaurus
+Order: Saurischia;   Suborder: Saruopodomorpha
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Chuandongosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: China (Asia);   Food: unknown
+
+Chungkingosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Coelurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Late Jurassic;   Where: Wyoming (America);   Food: Meat
+
+Compsognathus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Bavaria, France (Europe);   Food: Insects
+
+Cryptodraco
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Jurassic;   Where: England (Europe);   Food: Plants
+
+Dacentrurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: England, Portugal,;   Food: Plants
+
+Diclonius
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: East Africa;   Food: Plants
+
+Dicraeosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Tanzania (Africa);   Food: Plants
+
+Diplodocus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado, Wyoming,;   Food: Plants
+
+Dracopleta
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Jurassic;   Where: Portugal (Europe);   Food: Plants
+
+Drinker
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Wyoming (America);   Food: Plants
+
+Dryosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Wyoming, Colorado,;   Food: Plants
+
+Dyrstrophaeus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Utah (America);   Food: Plants
+
+Dystylosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Echinodon
+Order: Ornithischia;   Suborder: Thyreophora
+When: Late Jurassic;   Where: England (Europe), Colorad0 (America);   Food: Plants
+
+Elaphrosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Tanzania (Africa);   Food: Meat
+
+Euhelopus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Shandong (Cina) (Asia);   Food: Plants
+
+Gargolyeosaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Late Jurassic;   Where: Wyoming (America);   Food: Plants
+
+Gigantosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: England (Europe);   Food: Plants
+
+Gongbusaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Haplocanthosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Ischyrosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: England (Europe);   Food: Plants
+
+Janenschia
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Tanzania (Africa);   Food: Plants
+
+Kentrosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: Tanzania (Africa);   Food: Plants
+
+Koparion
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Colarado *Amerca);   Food: 
+
+Lancanjiangosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Laosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Wyoming, Alberta (America);   Food: Plants
+
+Lisboasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Portugal (Europe);   Food: Meat
+
+Macrodontophion
+Order: not known;   Suborder: not known
+When: Late Jurassic;   Where: Ukraine (Europe);   Food: Meat 
+
+Magnosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: England (Europe);   Food: Meat
+
+Mamenchisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Marshosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Utah, Colorado (America);   Food: Meat
+
+Metriacanthosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: England (Europe);   Food: Meat
+
+Monkonosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: Tibet (Asia);   Food: Plants
+
+Monolophosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Meat
+
+Morinosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: France (Europe);   Food: Plants
+
+Nanosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Utah (America);   Food: Plants
+
+Neosodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: France (Europe);   Food: Plants
+
+Omeisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Ornitholestes
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Wyoming, Utah (America);   Food: Meat
+
+Othnielia
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Colorado, Utah, Wyoming (America);   Food: Plants
+
+Phyllodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Jurassic;   Where: Portugal (Europe);   Food: Plants
+
+Priodontognathus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Jurassic;   Where: England (Europe);   Food: Plants
+
+Sanpasaurus
+Order: not known;   Suborder: not known
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Seismosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: New Mexico (America);   Food: Plants
+
+Siamosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Thailand (Asia);   Food: Meat
+
+Stegosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: Colorado, Utah,;   Food: Plants
+
+Stokesosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Utah (America);   Food: Meat
+
+Supersaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Szechuanosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Meat
+
+Tawasaurus
+Order: Saurischia;   Suborder: Prosauropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Teinurosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: France (Europe);   Food: Meat
+
+Tichosteus
+Order: not known;   Suborder: not known
+When: Late Jurassic;   Where: Colorado (America);   Food: Plants
+
+Tienshanosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Torvosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: Colorado, Wyoming (America);   Food: Meat
+
+Trimucrodon
+Order: Ornithischia;   Suborder: not known
+When: Late Jurassic;   Where: Portugal (Europe);   Food: Plants
+
+Tuojiangosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Tuojiangosaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Late Jurassic;   Where: China (Asia);   Food: Plants
+
+Yangchuanosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Jurassic;   Where: China (Asia);   Food: Meat
+
+Aegyptosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Cretaceous;   Where: Egypt (Africa);   Food: Plants
+
+Andesaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Embasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Cretaceous;   Where: Kazakhstan (Asia);   Food: Meat
+
+Abrosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: China;   Food: Plants
+
+Acrocanthosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Oklahoma, Texas (America);   Food: Meat
+
+Afrovenator
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Niger (Africa);   Food: Meat
+
+Altispinax
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Germany, Belgium,;   Food: Meat
+
+Amargasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Angaturama
+Order: Saurischia;   Suborder: Therapoda
+When: Early Cretaceous;   Where: Brazil (America);   Food: Fish (probably)
+
+Aragosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Spain (Europe);   Food: Plants
+
+Archaeoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Early Cretaceous;   Where: China (Asia);   Food: Plant
+
+Asiatosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Mongolia, China (Asia);   Food: Plants
+
+Astrodon
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Maryland (America),;   Food: Plants
+
+Atlascopcosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Southeast Asia, Australia;   Food: Plants
+
+Austrosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Queensland (Australia);   Food: Plants
+
+Baryonyx
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Becklespinax
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Calamosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Calamospondylus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Caudipteryx
+Order: Saurischia;   Suborder: Therooda
+When: Early Cretaceous;   Where: China (Asia);   Food: Meat
+
+Chilantaisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Inner Mongolia,;   Food: Meat
+
+Chondrosteosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Chubutisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Craterosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Deinonychus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Montana (America);   Food: Meat
+
+Dsungaripterus
+Order: ;   Suborder: 
+When: Early Cretaceous;   Where: ;   Food: Meat
+
+Eucamerotous
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Gastonia
+Order: Ornithischcia;   Suborder: Thyreophora
+When: Early Cretaceous;   Where: Utah (America);   Food: Plants
+
+Genusaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: France (Europe);   Food: Meat
+
+Hoplitosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: South Dakota;   Food: Plants
+
+Hylaeosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Hypsilophodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: England, Spain,;   Food: Plants
+
+Iguanodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: England, Belgium,;   Food: Plants
+
+Inosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Nigeria (Africa);   Food: Meat
+
+Irritator
+Order: Saurischia;   Suborder: Therapoda
+When: Early Cretaceous;   Where: Brazil (America);   Food: Meat
+
+Iuticisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Isle of Wright (England) (Europe);   Food: Plants
+
+Kagasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Japan (Asia);   Food: Meat
+
+Kangnasaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: South Africa;   Food: Plants
+
+Katsuyamasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Japan (Asia);   Food: Meat
+
+KelmayisaurusK
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: China (Asia);   Food: Meat
+
+Kitadanisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Japan (Asia);   Food: Meat
+
+Leaellynasaura
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Australia;   Food: Plants
+
+Macrurosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Microraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Cina (Asia);   Food: Meat
+
+Microvenator
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Montana (America);   Food: Meat
+
+Minmi
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Australia;   Food: Plants
+
+Mongolosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Muttaburrasaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Australia;   Food: Plants
+
+Neovenator
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Nodosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Wyoming, Kansas (America);   Food: Plants
+
+Oplosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Isle of Wright (England) (Europe);   Food: Plants
+
+Ornithodesmus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Ouranosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Niger (Africa);   Food: Plants
+
+Paranthodon
+Order: Ornithischia;   Suborder: Stegosauria
+When: Early Cretaceous;   Where: South Africa;   Food: Plants
+
+Pelecanimimus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Spain (Europe);   Food: Plants & Meat
+
+Pelorosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: England, Portugal,;   Food: Plants
+
+Phaedrolosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: China (Asia);   Food: Meat
+
+Pleurocoelus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Maryland, Texas (America),;   Food: Plants
+
+Polacanthanus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Early Cretaceous;   Where: England (Europe), possibly Utah (America);   Food: Plants
+
+Priconodon
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Maryland (America);   Food: Plants
+
+Prodeinodon
+Order: Saurischia;   Suborder: Theropoda 
+When: Early Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Psittacosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Early Cretaceous;   Where: Mongolia, China,;   Food: Plants
+
+Qantassaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Queensland (Australia);   Food: Plants
+
+Rapator
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Australia;   Food: Meat
+
+Rebbachisaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: Morocco (America);   Food: Plants
+
+Regnosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Sauropelta
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Montana, Wyoming (America);   Food: Plants
+
+Sauroplites
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: China,;   Food: Plants
+
+Shamosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Silvisaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Early Cretaceous;   Where: Kansas (America);   Food: Plants
+
+Stenonychosaurus
+Order: Ornithischia;   Suborder: Marginocephalia
+When: Early Cretaceous;   Where: Germany (Europe);   Food: Plants
+
+Tenontosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Montana, Wyoming,;   Food: Plants
+
+Thecocoelurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Timimus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Australia;   Food: Meat & Plants
+
+Tugulusaurus
+Order: Saurischia;   Suborder: Theropoda 
+When: Early Cretaceous;   Where: China (Asia);   Food: Meat
+
+Ultrasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Early Cretaceous;   Where: South Korea;   Food: Plants
+
+Utahraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Eastern Utah (America);   Food: Meat
+
+Valdoraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Valdosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: England, Romania (Europe);   Food: Plants
+
+Wakinosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: Japan (Asia);   Food: Meat
+
+Walgettosuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Early Cretaceous;   Where: New South Wales (Australia);   Food: Meat & Plants
+
+Wuerhosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Early Cretaceous;   Where: China (Asia);   Food: Plants
+
+Wyleyia
+Order: Saurischia ;   Suborder: Theropoda 
+When: Early Cretaceous;   Where: England (Europe);   Food: Meat
+
+Yaverlandia
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Early Cretaceous;   Where: England (Europe);   Food: Plants
+
+Zephyrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Early Cretaceous;   Where: Montana (America);   Food: Plants
+
+Abelisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Achelousaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Achiceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Adasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Southwest Mongolia (Asia);   Food: Meat
+
+Aeolosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Alamosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: New Mexico, Texas, Utah (America);   Food: Plants
+
+Albertosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Western North Africa;   Food: Meat
+
+Alectrosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia, China (Asia);   Food: Meat
+
+Alioramus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Alvarezsaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Amtosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Anasazisaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: New Mexico (America);   Food: Plants
+
+Anatotitan
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Montana,;   Food: Plants
+
+Anchiceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Canada (America);   Food: Plants
+
+Ankylosaurus
+Order: Saurischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Montana, Wyoming,;   Food: Plants
+
+Anodontosaurus
+Order: Ornithoschia;   Suborder: Thyreophora
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Anserimimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Antarctosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina, Uruguay,;   Food: Plants
+
+Aralosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Kazakhstan (Asia);   Food: Plants
+
+Archaeornithoides
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Insects
+
+Archaeornithomimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Meat
+
+Argyrosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina, Uruguay (America);   Food: Plants
+
+Arrhinoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Arstanosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Kazakhstan (Asia);   Food: Plants
+
+Asiaceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Central Asia;   Food: Plants
+
+Aublysodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Western North Africa;   Food: Meat
+
+Avaceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Avimimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Bactrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Mongolia, China (Asia);   Food: Plants
+
+Bagaceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Barsboldia
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Betasuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Netherlands (Europe);   Food: Meat
+
+Borgovia
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Brachyceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Brachylophosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Brachypodosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: India (Asia);   Food: Plants
+
+Bradycneme
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Romania (Europe);   Food: Meat
+
+Caenagnathus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Western North Africa;   Food: Meat
+
+Calosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Kansas (America);   Food: Plants
+
+Campylodoniscus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Centrosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Ceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Chasmosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta, Texas (America);   Food: Plants
+
+Chiayusaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Northwest China (Asia);   Food: Plants
+
+Chingkankousaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Meat
+
+Chirostenotes
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat
+
+Cionodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Colorado,;   Food: Plants
+
+Claorhynchus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Clasmodosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Coeluroides
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Compsocuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Conchoraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Mollusks
+
+Corythosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Craspedodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Belgium (Europe);   Food: Plants
+
+Crataeomus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Hungary (Europe);   Food: Plants
+
+Daspletosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat
+
+Deinocheirus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat, insects
+
+Deinodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Meat
+
+Denversaurus
+Order: Ornithischia;   Suborder: Thyreophora
+When: Late Cretaceous;   Where: South Dakota (America);   Food: Plants
+
+Diceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Wyoming (America);   Food: Plants
+
+Dinotyrannus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Meat
+
+Diplotomodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: New Jersey (America);   Food: Meat
+
+Dravidosaurus
+Order: Ornithischia;   Suborder: Stegosauria
+When: Late Cretaceous;   Where: India (Asia);   Food: Plants
+
+Dromaeosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat
+
+Dromiceiomimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat, eggs, insects
+
+Dryptosauroides
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Dryptosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Eastern North America;   Food: Meat
+
+Dysganus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Dyslocosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Wyoming (America);   Food: Plants
+
+Edmontonia
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Alberta, North-West Montana (America);   Food: Plants
+
+Edmontosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Wyoming, Colorado,;   Food: Plants
+
+Einiosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Elmisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Gobi Desert (China) (Asia);   Food: Meat
+
+Enigmosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants 
+
+Eoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Epachthosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Erlikosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants 
+
+Eucentrosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Euplocephalus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Euronychodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Portugal (Europe);   Food: Meat
+
+Gallimimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Gobi Desert (China) (Asia);   Food: Insects
+
+Garudimimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Gasparinisaura
+Order: Ornithischcia;   Suborder: Iguanadontia
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Genyodectes
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Gilmoreosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Goyocephale
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Graciliceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Gravitholus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Gryposaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Hadrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: ;   Food: Plants
+
+Heishansaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Heptasteornis
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Transylvania (Africa);   Food: Meat
+
+Hironosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Japan (Asia);   Food: Plants
+
+Hisanohamasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Japan (Asia);   Food: Plants
+
+Homalocephale
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Hulsanpes
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Hypacrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Hypselosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: France, Spain (Europe);   Food: Plants
+
+Hypsibema
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: North Carolina (America);   Food: Plants
+
+Indosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Niger (Africa);   Food: Meat
+
+Indosuchus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Ingenia
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Itemirus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Jaxartosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Kazakhstan (Asia);   Food: Plants
+
+Jenghizkhan
+Order: Saurischia;   Suborder: Therapoda
+When: Late Cretaceous;   Where: China, Mongolia (Asia);   Food: Meat
+
+Jubbulpuria
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Kakuru
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Southern Australia;   Food: Meat
+
+Kirtosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: New Mexico (America);   Food: Plants
+
+Koreanosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: South Korea (Asia);   Food: Meat
+
+Labocania
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mexico (America);   Food: Meat
+
+Laevisuchus
+Order: Saurischia;   Suborder: Theropoda 
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Lambeosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta, Montana,;   Food: Plants
+
+Lametasaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: India (Asia);   Food: Plants
+
+Laplatasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America),;   Food: Plants
+
+Leipsanosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Transylvania (Africa);   Food: Plants
+
+Leptoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta, Wyoming,;   Food: Plants
+
+Lophorhothon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alabama (America);   Food: Plants
+
+Loricosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Magyarosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Hungary, Romania (Europe);   Food: Plants
+
+Maiasaura
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Majungasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Madagascar, Egypt (Africa),;   Food: Meat
+
+Majungatholus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Madagascar (Africa);   Food: Plants
+
+Maleevosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Maleevus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Mandschurosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Manchuria (China) (Asia);   Food: Plants
+
+Megacervixosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Microceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Microdontosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Microhadrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Micropachycephalosaurus
+Order: Ornithischia;   Suborder: Marginocephalia
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Microsaurops
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Monoclonius
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana, Alberta (America);   Food: Plants
+
+Mononykus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Montanoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Nanotyrannus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Meat
+
+Nanshiungosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Nanshiung (China) (Asia);   Food: Plants
+
+Nemegtosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Gobi Desert (China) (Asia);   Food: Plants
+
+Neuquensaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Nipponosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Sakhalin Island (Russia, formerly Japanese territory) (Asia);   Food: Plants
+
+Noasaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Notoceratops
+Order: Ornithischia;   Suborder: not known
+When: Late Cretaceous;   Where: Patagonia (America);   Food: Plants
+
+Opisthocoelicaudia
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Ornatotholus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Ornithomimidae
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Colorado, Utah,;   Food: Meat
+
+Ornithomimoides
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Ornithotarsus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: New Jersey (America);   Food: Plants
+
+Orodromeus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Orthogoniosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: India (Asia);   Food: Meat
+
+Orthomerus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Netherlands (Europe);   Food: Plants
+
+Oviraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Gobi Desert (China) (Asia);   Food: Meat
+
+Pachycephalosaurus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Montana, Wyoming,;   Food: Plants
+
+Pachyrhinosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta, Alaska (America);   Food: Plants
+
+Palaeoscincus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Panoplosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Parasaurolophus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta, Utah,;   Food: Plants
+
+Parksosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Paronychodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana (America);   Food: Meat 
+
+Patagonykus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina;   Food: Meat
+
+Peishansaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Pentaceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: New Mexico (America);   Food: Plants
+
+Pinacosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia, China (Asia);   Food: Plants
+
+Polyonax
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Colorado (America);   Food: Plants
+
+Prenocephale
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Probactrosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Prosaurolophus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Plants
+
+Protoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Quaesitosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: South-East Gobi (China) (Asia);   Food: Meat
+
+Rhabdodon
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: France, Romania,;   Food: Plants
+
+Rhodanosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: France (Europe);   Food: Plants
+
+Ricardoestesia
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta,;   Food: Meat
+
+Saichania
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Saltasaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Saurolophus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Alberta (America), Mongolia (Asia);   Food: Plants
+
+Saurornithoides
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Saurornitholestes
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat
+
+Secernosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Plants
+
+Segnosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia),;   Food: Meat
+
+Shanshanosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Meat
+
+Shantungosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Spinosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Egypt (Africa);   Food: Meat
+
+Stegoceras
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Stegosaurides
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: NW China (Asia);   Food: Plants
+
+Struthiomimus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Alberta (America);   Food: Meat, insects
+
+Struthiosaurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Austria, Romania (Europe);   Food: Plants
+
+Stygimoloch
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Styracosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Alberta, Montana (America);   Food: Plants
+
+Talarurus
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Tanius
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Tarascosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: France (Europe);   Food: Meat
+
+Tarbosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: China, Mongolia (Asia);   Food: Meat
+
+Tarchia
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Taveirosaurus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Portugal (Europe);   Food: Plants
+
+Telmatosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Romania, France (Europe);   Food: Plants
+
+Therizinosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat, insects
+
+Thescelosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: Wyoming, Montana,;   Food: Plants
+
+Thespesius
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: South Dakota;   Food: Plants
+
+Titanosaurus
+Order: Saurischia;   Suborder: Sauropoda
+When: Late Cretaceous;   Where: India (Asia), Argentina (America),;   Food: Plants
+
+Tochisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Meat
+
+Torosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Wyoming, Utah,;   Food: Plants
+
+Trachodon
+Order: Ornithischia;   Suborder: not known
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Triceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Colorado, Wyoming,;   Food: Plants
+
+Troodon
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana, Wyoming,;   Food: Meat
+
+Tsagantegia
+Order: Ornithischia;   Suborder: Thyreophorea
+When: Late cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Tsintaosaurus
+Order: Ornithischia;   Suborder: Ornithopoda
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants
+
+Turanoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Russia (Europe);   Food: Plants
+
+Tylocephale
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Tylocephale
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Tyrannosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Montana, Wyoming,;   Food: Meat
+
+Udanoceratops
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Mongolia (Asia);   Food: Plants
+
+Ugrosaurus
+Order: Ornithischia;   Suborder: Ceratopsia
+When: Late Cretaceous;   Where: Montana (America);   Food: Plants
+
+Unquillosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Vectensia
+Order: Ornithischia;   Suborder: Ankylosauria
+When: Late Cretaceous;   Where: England (Europe);   Food: Plants
+
+Velociraptor
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Mongolia (Asia),;   Food: Meat
+
+Velocisaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
+
+Wannanosaurus
+Order: Ornithischia;   Suborder: Pachycephalosauria
+When: Late Cretaceous;   Where: China (Asia);   Food: Plants 
+
+Xenotarsosaurus
+Order: Saurischia;   Suborder: Theropoda
+When: Late Cretaceous;   Where: Argentina (America);   Food: Meat
