@@ -8,7 +8,7 @@ function gotData(data){
 				+"<tr>";
 				
 	for(response in data.responseJSON){
-		$("#displaywindow").html(JSON.stringify(data.responseJSON));
+		//$("#displaywindow").html(JSON.stringify(data.responseJSON));
 		var dinoName = data.responseJSON[response]['Name'];
 		var order = data.responseJSON[response]['Order'];
 		var suborder = data.responseJSON[response]['Suborder'];
@@ -61,6 +61,7 @@ function readDinos() {
 //Ready Function
 $(document).ready(function () {
 	console.log("Ready!");
+	readDinos();
 });
 
 function alertOfSuccess(){

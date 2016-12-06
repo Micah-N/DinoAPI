@@ -1,0 +1,23 @@
+.input {
+	display: inline-block;
+
+}
+
+#page-header{
+	background: #2f9046;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.inputbox{
+	margin: auto;
+	width: 50%;
+}
+
+h1 {
+	color: #d9dbde;
+}
+
+a {
+	color: #d9dbde;
+}
