@@ -6,7 +6,7 @@ function gotData(data){
 	var table = "<table border='1'align='center'>"
 				+"<tr><th>Dino Name</th><th>Order</th><th>Suborder</th><th>When</th><th>Where</th><th>Food</th></tr>"
 				+"<tr>";
-				
+
 	for(response in data.responseJSON){
 		$("#displaywindow").html(JSON.stringify(data.responseJSON));
 		var dinoName = data.responseJSON[response]['Name'];
@@ -16,7 +16,7 @@ function gotData(data){
 		var where = data.responseJSON[response]['Where'];
 		var food = data.responseJSON[response]['Food'];
 		var id = data.responseJSON[response]['id'];
-		console.log("Name: " + dinoName 
+		console.log("Name: " + dinoName
 		+ "\nOrder: " + order
 		+ "\nSuborder: " + suborder
 		+ "\nWhen: " + when
@@ -35,7 +35,7 @@ function gotData(data){
 		+		'<td><form name="editdino">'
 		+			'<input type="button" value="Edit" id="Edit Button" onclick="updateDino('+ id +');">'
 		+			'<input type="hidden" value="' + id + '" name="Row_to_Edit">'
-		+		'</form></td>'		
+		+		'</form></td>'
 		+	'<td><form name="deletedino">'
 		+			'<input type="button" value="Delete" id="Delete Button" onclick="deleteDino('+ id + ');">'
 		+			'<input type="hidden" value="' + id + '" name="Row_to_Delete">'
@@ -44,7 +44,7 @@ function gotData(data){
 	}
 	table+="</tr></table>";
 	$("#rowdisplaywindow").html(table);
-	
+
 }//end of gotData
 
 function readDinos() {
@@ -65,10 +65,10 @@ function queryTMDB(){
         key = '&api_key=38c7b812d037cbd445141717cac36859',
 		language = '&language=en-US&query=',
 		pageNum = '&page=1';
-		
+
 		var input = $('#name').val();
 		var result = '';
-		
+
         $.ajax({
             type: 'GET',
 			url: url + mode + key + language + input + pageNum,
@@ -82,26 +82,26 @@ function queryTMDB(){
 					var year = r[i]['release_date'];
 					var id = r[i]['id'];
 					var row = r[i];
-					
+
 					result += '<br>'
-					+			'<input type="text" maxlength="100" value="' + row['title'] + ' ' + row['release_date'] + ' ' 
+					+			'<input type="text" maxlength="100" value="' + row['title'] + ' ' + row['release_date'] + ' '
 					+ row['id'] +'" id="Select Button" onclick="selectMovie(' + id + ');">'
 					+			'<input type="hidden" value="' + id + '" name="Row_to_Select">';
-					
+
 					$('#resultholder').html(result);
 				}
             },
             error: function(e) {
                 console.log(e.message);
             }
-        });	
+        });
 }//end of queryTMDB
 */
 //Ready Function
 $(document).ready(function () {
 	console.log("Ready!");
     readDinos(); // <--Uncomment this line to display all dino entries
-	//$('#name').keyup(queryTMDB);	
+	//$('#name').keyup(queryTMDB);
 });
 
 function alertOfSuccess(){
@@ -115,7 +115,7 @@ function alertOfFail(){
 
 function checkInputString(input){
 	var pattern = /^([A-Za-z0-9-\s':",\!\?\.\(\)%]){1,50}$/;
-	
+
 	if(pattern.test(input)){
 		return true;
 	}
@@ -131,12 +131,12 @@ function addDino(){
 	var when = $("#when").val().trim();
 	var where = $("#where").val().trim();
 	var food = $("#food").val().trim();
-	
+
 	while (name == null || name == "" || name == "Enter dino name here" || !checkInputString(name)) {
 		name = prompt("Please enter a valid dino name.", "Enter name here");
 		name = name.trim();
 	}
-		 
+
 	$.ajax({
 		url:  "http://micahnetz.com/dinoAPI/commandsAdmin.php",
 		data:
@@ -155,17 +155,17 @@ function addDino(){
 }
 /**/
 function searchDino(){
-	
+
 	var name = $("#sname").val().trim();
     var order = $("#sorder").val().trim();
     var suborder = $("#ssuborder").val().trim();
 	var when = $("#swhen").val().trim();
 	var where = $("#swhere").val().trim();
 	var food = $("#sfood").val().trim();
-	
+
 	//Check each input field to verify which search to perform
 	var keyword = null;
-	
+
 	if(name != null && name != ""){
 		keyword = "Name";
 	}
@@ -214,14 +214,14 @@ function updateDino(id){
 	console.log("Entered updateDino");
 	var conf = confirm("Are you sure you want to edit this dinosaur?");
 	if (conf == true) {
-		
+
 		var name = null;
 		var order = null;
 		var suborder = null;
 		var when = null;
 		var where = null;
 		var food = null;
-		
+
 		while (name == null || name == "" || name == "Enter name here" || !checkInputString(name)) {
 			name = prompt("Please enter the new dinosaur name.", "Enter name here");
 			name = name.trim();
@@ -246,16 +246,16 @@ function updateDino(id){
 			food = prompt("Please enter the new dinosaur diet.", "Enter diet here");
 			food = food.trim();
 		}
-				
+
 		$.ajax({
 			type: "PUT",
 			dataType: "json",
-			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id 
-			+"&name=" + name 
-			+ "&order=" + order 
+			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id
+			+"&name=" + name
+			+ "&order=" + order
 			+ "&suborder=" + suborder
-			+ "&when=" + when 
-			+ "&where=" + where 
+			+ "&when=" + when
+			+ "&where=" + where
 			+ "&food=" + food,
 			complete: function(data){
 				console.log("Data: " + JSON.stringify(data));
@@ -289,15 +289,15 @@ function changeElement(targetElement, value){
   }
 }
 
-function selectDino(id){	
+function selectDino(id){
 	console.log("Entered selectDino");
 	var url1 = 'https://api.themoviedb.org/3/movie/';
 	var url2 = '?api_key=38c7b812d037cbd445141717cac36859&language=en-US';
 	var url = url1 + '' + id + '' + url2;
-	
+
 	document.getElementById("resultholder").innerHTML = "";
 	document.getElementById("Retrieved dinosaurs").innerHTML = "";
-	
+
 	$.ajax({
 		type: 'GET',
 		url: url,
@@ -323,7 +323,7 @@ function selectDino(id){
 			}
 			catch(e){
 				alert("Error encountered: " + e);
-			}			
+			}
 			//console.dir(json);
 		},
 		error: function(e) {
@@ -335,7 +335,7 @@ function selectDino(id){
 function getOptions(){
 	$.ajax({
 		type: 'OPTIONS',
-		url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
+		url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php?id=',
 		dataType: 'json',
 		success: function(json){
 			$("#optionwindow").html(JSON.stringify(json));
