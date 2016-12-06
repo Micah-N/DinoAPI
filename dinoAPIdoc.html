@@ -1,192 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Dinosaur API Documentation Page</title>
-<h1 align="center">Dinosaur API Documentation Page</h1>
+	<meta charset="utf-8"/>
+	<title>Dinosaur API Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="semantic/semantic.js" type="type/javascript"></script>
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
 </head>
 
 <body>
-<a href="http://micahnetz.com/dinoAPI/display.html">Return to main display page</a> 
-<h3 align="center">Available commands and how to use</h3>
-<table align="center" border="1">
-<tr>
-<th>GET</th>
-</tr>
-<tr>
-<td>GET: Used to search based on specified parameter. Search a single entity, all entities or parameter qualified entries. Can be used in both Admin and User modes.</td>
-</tr>
-<td>How to test with Postman (In Admin Mode)<br>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php<br>Select request method: GET
-<br>To view all entries leave all params empty
-<br>To search by input parameter (be sure to specify the keyword - what type parameter to search)
-<br>Enter the following params:
-<br>key: keyword<br>value: the parameter you want to search (i.e. Name)
-<br>key: name<br>value: the name you want to use for the search
-<br>key: order<br>value: the order you want to use for the search
-<br>key: suborder<br>value: the suborder you want to use for the search
-<br>key: when<br>value: the era you want to use for the search
-<br>key: where<br>value: the location you want to use for the search
-<br>key: food<br>value: the diet you want to use for the search</td>
-<tr>
-<tr>
-<td>How to structure query (Admin): $.ajax({
-		type: "GET",
-		dataType: "json",
-		async: false,
-		url: "http://micahnetz.com/dinoAPI/commandsAdmin.php",
-		data:
-		{
-			'name': name,
-			'order': order,
-			'suborder': suborder,
-			'when': when,
-			'where': where,
-			'food': food,
-			'keyword': keyword
-		},
-		complete: function(data){
-			/*report success (returns json results of GET request)*/;
-		}
-	});</td>
-</tr>
-<tr>
-<td>How to structure query (User): $.ajax({
-		type: "GET",
-		dataType: "json",
-		async: false,
-		url: "http://micahnetz.com/dinoAPI/commandsUser.php",
-		data:
-		{
-			'name': name,
-			'order': order,
-			'suborder': suborder,
-			'when': when,
-			'where': where,
-			'food': food,
-			'keyword': keyword
-		},
-		complete: function(data){
-			/*report success (returns json results of GET request)*/
-		}
-	});</td>
-</tr>
-<tr></tr>
-<tr>
-<th>POST</th>
-</tr>
-<tr>
-<td>POST: Used to add a data entry. Can only be used in Admin mode.
-</tr>
-<td>How to test with Postman (In Admin Mode)<br>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php<br>Select request method: POST<br>Enter the following params:
-<br>key: name<br>value: the name you want to use for the new entry
-<br>key: order<br>value: the order you want to use for the new entry
-<br>key: suborder<br>value: the suborder you want to use for the new entry
-<br>key: when<br>value: the era you want to use for the new entry
-<br>key: where<br>value: the location you want to use for the new entry
-<br>key: food<br>value: the diet you want to use for the new entry</td>
-<tr>
-<tr>
-<td>How to structure query (Admin): $.ajax({
-		url:  "http://micahnetz.com/dinoAPI/commandsAdmin.php",
-		data:
-		{
-		"name": name,
-		"order": order,
-		"suborder": suborder,
-		"when": when,
-		"where": where,
-		"food": food
-		},
-		type: "POST",
-		complete: function(){/*report success*/},
-	});</td>
-</tr>
-<tr></tr>
-<tr>
-<th>PUT</th>
-</tr>
-<tr>
-<td>PUT: Used to update/edit a single data entry. Can only be used in Admin mode. Use the id variable to specify the id # of the dinosaur entry to update.
-</tr>
-<tr>
-<td>How to test with Postman (In Admin Mode)<br>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php<br>Select request method: PUT<br>Enter the following params:
-<br>key: id<br>value: the id # of entry to be edited
-<br>key: name<br>value: the name you want to replace original name with
-<br>key: order<br>value: the order you want to replace original order with
-<br>key: suborder<br>value: the suborder you want to replace original suborder with
-<br>key: when<br>value: the era you want to replace original era with
-<br>key: where<br>value: the location you want to replace original location with
-<br>key: food<br>value: the diet you want to replace original diet with</td>
-<tr>
-<tr>
-<td>How to structure query (Admin): $.ajax({
-			type: "PUT",
-			dataType: "json",
-			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id 
-			+"&name=" + name 
-			+ "&order=" + order 
-			+ "&suborder=" + suborder
-			+ "&when=" + when 
-			+ "&where=" + where 
-			+ "&food=" + food,
-			complete: function(data){
-				/*report success*/
-			}
-		});</td>
-</tr>
-<tr></tr>
-<tr>
-<th>DELETE</th>
-</tr>
-<tr>
-<td>DELETE: Used to delete a single data entry. Can only be used in Admin mode. Use the id variable to specify the id # of the dinosaur entry to delete.
-</tr>
-<tr>
-<td>How to test with Postman (In Admin Mode)<br>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php<br>Select request method: DELETE<br>Enter the following params:
-<br>key: id<br>value: the id # of entry to be deleted</td>
-<tr>
-<tr>
-<td>How to structure query (Admin): $.ajax({
-			url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id,
-			type: "DELETE",
-			dataType: "json",
-			complete: function(data){
-				/*report success*/
-			}
-		});</td>
-</tr>
-<tr></tr>
-<tr>
-<th>OPTIONS</th>
-</tr>
-<tr>
-<td>OPTIONS: Used to display the options which are available depending on privilege mode. Can be used in both Admin and User modes.
-</tr>
-<tr>
-<td>How to test with Postman (In Admin Mode)<br>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php<br>Select request method: OPTIONS</td>
-<tr>
-<tr>
-<td>How to structure query (Admin): $.ajax({
-		type: 'OPTIONS',
-		url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
-		dataType: 'json',
-		success: function(json){
-			/*report success (returns json results of GET request)*/
-		}
-	});</td>
-</tr>
-<tr>
-<td>How to structure query (User): $.ajax({
-		type: 'OPTIONS',
-		url: 'http://micahnetz.com/dinoAPI/commandsUser.php',
-		dataType: 'json',
-		success: function(json){
-			/*report success (returns json results of GET request)*/
-		}
-	});</td>
-</tr>
-</table>
+	<div class="ui one column stackable grid container">
+		<div class="column">
+			<h1>Dinosaur API Documentation Page</h1>
+			<a href="display.html">Display Page</a>
+			<h2>Available commands and how to use</h2>
+		</div>
+	</div>
 
+<div class="ui stackable grid container">
+	<div class="two column row">
+	<div class="column">
+	<h3>GET</h3>
+	<p>Used to search based on specified parameter.
+		Search a single entity, all entities or parameter qualified entries.
+		Can be used in both Admin and User modes.</p>
+
+	<h4>How to test with Postman (In Admin Mode)</h4>
+	<ul>
+		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Select request method: GET</li>
+		<li>To view all entries leave all params empty.</li>
+		<li>To search by input parameter, enter the following params:</li>
+		<ul>
+			<li>keyword: the parameter you want to search (i.e. Name)</li>
+			<li>name: the name you want to use for the search</li>
+			<li>order: the order you want to use for the search</li>
+			<li>suborder: the suborder you want to use for the search</li>
+			<li>when: the era you want to use for the search</li>
+			<li>where: the location you want to use for the search</li>
+			<li>food: the diet you want to use for the search</li>
+		</ul></ul>
+
+	<h4>How to structure query (Admin)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	type: "GET",
+	dataType: "json",
+	async: false,
+	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php",
+	data:
+	{
+		'name': name,
+		'order': order,
+		'suborder': suborder,
+		'when': when,
+		'where': where,
+		'food': food,
+		'keyword': keyword
+	},
+	complete: function(data){
+		/*report success (returns json results of GET request)*/;
+	}
+});
+	</pre>
+
+	<h4>How to structure query (User)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	type: "GET",
+	dataType: "json",
+	async: false,
+	url: "http://micahnetz.com/dinoAPI/commandsUser.php",
+	data:
+	{
+		'name': name,
+		'order': order,
+		'suborder': suborder,
+		'when': when,
+		'where': where,
+		'food': food,
+		'keyword': keyword
+	},
+	complete: function(data){
+		/*report success (returns json results of GET request)*/
+	}
+});
+	</pre>
+	</div>
+	<div class="column">
+		<h3>POST</h3>
+		<p>Used to add a data entry. Can only be used in Admin mode.</p>
+		<h4>How to test with Postman (In Admin Mode)</h4>
+		<ul>
+			<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+			<li>Select request method: POST</li>
+			<li>Enter the following params:</li>
+			<ul>
+				<li>name: the name you want to use for the new entry</li>
+				<li>order: the order you want to use for the new entry</li>
+				<li>suborder: the suborder you want to use for the new entry</li>
+				<li>when: the era you want to use for the new entry</li>
+				<li>where: the location you want to use for the new entry</li>
+				<li>food: the diet you want to use for the new entry</li>
+			</ul></ul>
+
+		<h4>How to structure query (Admin)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	url:  "http://micahnetz.com/dinoAPI/commandsAdmin.php",
+	data:
+	{
+	"name": name,
+	"order": order,
+	"suborder": suborder,
+	"when": when,
+	"where": where,
+	"food": food
+	},
+	type: "POST",
+	complete: function(){/*report success*/},
+});
+	</pre>
+	</div>
+
+	<div class="column">
+		<h3>PUT</h3>
+		<p>Used to update/edit a single data entry.
+			Can only be used in Admin mode.
+			Use the id variable to specify the id # of the dinosaur entry to update.</p>
+
+		<h4>How to test with Postman (In Admin Mode)</h4>
+		<ul>
+			<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+			<li>Select request method: PUT</li>
+			<li>Enter the following params:</li>
+			<ul>
+				<li>id: the id # of entry to be edited</li>
+				<li>name: the name you want to replace original name with</li>
+				<li>order: the order you want to replace original order with</li>
+				<li>suborder: the suborder you want to replace original suborder with</li>
+				<li>when: the era you want to replace original era with</li>
+				<li>where: the location you want to replace original location with</li>
+				<li>food: the diet you want to replace original diet with</li>
+			</ul></ul>
+
+		<h4>How to structure query (Admin)</h4>
+		<pre class="prettyprint lang-js">
+$.ajax({
+	type: "PUT",
+	dataType: "json",
+	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id
+	+"&name=" + name
+	+ "&order=" + order
+	+ "&suborder=" + suborder
+	+ "&when=" + when
+	+ "&where=" + where
+	+ "&food=" + food,
+	complete: function(data){
+		/*report success*/
+	}
+});
+		</pre>
+	</div>
+
+<div class="column">
+	<h3>DELETE</h3>
+	<p>Used to delete a single data entry.
+		Can only be used in Admin mode.
+		Use the id variable to specify the id # of the dinosaur entry to delete.</p>
+	<h4>How to test with Postman (In Admin Mode)</h4>
+	<ul>
+		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Select request method: DELETE</li>
+		<li>Enter the following params:</li>
+		<ul>
+			<li>id: the id # of entry to be deleted</li>
+		</ul></ul>
+	<h4>How to structure query (Admin)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id,
+	type: "DELETE",
+	dataType: "json",
+	complete: function(data){
+		/*report success*/
+	}
+});
+</pre>
+</div>
+
+<div class="column">
+	<h3>OPTIONS</h3>
+	<p>Used to display the options which are available depending on privilege mode.
+		Can be used in both Admin and User modes.</p>
+	<h4>How to test with Postman (In Admin Mode)</h4>
+	<ul>
+		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Select request method: OPTIONS</li>
+	</ul>
+	<h4>How to structure query (Admin)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	type: 'OPTIONS',
+	url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
+	dataType: 'json',
+	success: function(json){
+		/*report success (returns json results of GET request)*/
+	}
+});
+	</pre>
+
+	<h4>How to structure query (User)</h4>
+	<pre class="prettyprint lang-js">
+$.ajax({
+	type: 'OPTIONS',
+	url: 'http://micahnetz.com/dinoAPI/commandsUser.php',
+	dataType: 'json',
+	success: function(json){
+		/*report success (returns json results of GET request)*/
+	}
+});
+	</pre>
+	</div>
+</div>
+</div>
 </body>
 
 </html>
