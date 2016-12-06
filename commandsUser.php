@@ -23,30 +23,32 @@ function scrub($input) {
 if(($_SERVER["REQUEST_METHOD"] == "GET")){
 	try{
 			$command = new CrudCommands();
-			if(isset($_GET['name']) || isset($_GET['order']) || isset($_GET['suborder']) || isset($_GET['when']) || isset($_GET['where']) || isset($_GET['food'])){
-				$name = scrub($_GET['name']);
-				$order = scrub($_GET['order']);
-				$suborder = scrub($_GET['suborder']);
-				$when = scrub($_GET['when']);
-				$where = scrub($_GET['where']);
-				$food = scrub($_GET['food']);
+			if(isset($_GET['keyword']) || isset($_GET['name']) || isset($_GET['order']) || isset($_GET['suborder']) || isset($_GET['when']) || isset($_GET['where']) || isset($_GET['food'])){
+				
 				$keyword = scrub($_GET['keyword']);
+				
 				if($keyword == "Name"){
+					$name = scrub($_GET['name']);
 					$rows = $command->SearchCommand($name, $keyword);
 				}
 				elseif($keyword == "Order"){
+					$order = scrub($_GET['order']);
 					$rows = $command->SearchCommand($order, $keyword);
 				}
 				elseif($keyword == "Suborder"){
+					$suborder = scrub($_GET['suborder']);
 					$rows = $command->SearchCommand($suborder, $keyword);
 				}
 				elseif($keyword == "When"){
+					$when = scrub($_GET['when']);
 					$rows = $command->SearchCommand($when, $keyword);
 				}
 				elseif($keyword == "Where"){
+					$where = scrub($_GET['where']);
 					$rows = $command->SearchCommand($where, $keyword);
 				}
 				elseif($keyword == "Food"){
+					$food = scrub($_GET['food']);
 					$rows = $command->SearchCommand($food, $keyword);
 				}
 				else{
@@ -60,6 +62,7 @@ if(($_SERVER["REQUEST_METHOD"] == "GET")){
 			echo $json;
 		}catch(Exception $e){
 				http_response_code(500);
+				echo "Name not found error" . $e; //<--This will need to be removed when publishing live, but helpful for testing
 				die("Data Entry Error");
 		}
 	

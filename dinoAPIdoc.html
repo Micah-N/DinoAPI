@@ -4,7 +4,6 @@
 	<meta charset="utf-8"/>
 	<title>Dinosaur API Documentation Page</title>
 	<link rel="stylesheet" type="text/css" href="semantic/semantic.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script src="semantic/semantic.js" type="type/javascript"></script>
 	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
@@ -29,7 +28,7 @@
 
 	<h4>How to test with Postman (In Admin Mode)</h4>
 	<ul>
-		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Enter url: micahnetz.com/dinoAPI/admin/</li>
 		<li>Select request method: GET</li>
 		<li>To view all entries leave all params empty.</li>
 		<li>To search by input parameter, enter the following params:</li>
@@ -49,7 +48,7 @@ $.ajax({
 	type: "GET",
 	dataType: "json",
 	async: false,
-	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php",
+	url: "http://micahnetz.com/dinoAPI/admin/",
 	data:
 	{
 		'name': name,
@@ -72,7 +71,7 @@ $.ajax({
 	type: "GET",
 	dataType: "json",
 	async: false,
-	url: "http://micahnetz.com/dinoAPI/commandsUser.php",
+	url: "http://micahnetz.com/dinoAPI/user/",
 	data:
 	{
 		'name': name,
@@ -94,7 +93,7 @@ $.ajax({
 		<p>Used to add a data entry. Can only be used in Admin mode.</p>
 		<h4>How to test with Postman (In Admin Mode)</h4>
 		<ul>
-			<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+			<li>Enter url: micahnetz.com/dinoAPI/admin/commandsAdmin.php</li>
 			<li>Select request method: POST</li>
 			<li>Enter the following params:</li>
 			<ul>
@@ -109,7 +108,7 @@ $.ajax({
 		<h4>How to structure query (Admin)</h4>
 	<pre class="prettyprint lang-js">
 $.ajax({
-	url:  "http://micahnetz.com/dinoAPI/commandsAdmin.php",
+	url:  "http://micahnetz.com/dinoAPI/admin/commandsAdmin.php",
 	data:
 	{
 	"name": name,
@@ -133,7 +132,7 @@ $.ajax({
 
 		<h4>How to test with Postman (In Admin Mode)</h4>
 		<ul>
-			<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+			<li>Enter url: micahnetz.com/dinoAPI/admin/</li>
 			<li>Select request method: PUT</li>
 			<li>Enter the following params:</li>
 			<ul>
@@ -151,7 +150,7 @@ $.ajax({
 $.ajax({
 	type: "PUT",
 	dataType: "json",
-	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id
+	url: "http://micahnetz.com/dinoAPI/admin/?id=" + id
 	+"&name=" + name
 	+ "&order=" + order
 	+ "&suborder=" + suborder
@@ -172,7 +171,7 @@ $.ajax({
 		Use the id variable to specify the id # of the dinosaur entry to delete.</p>
 	<h4>How to test with Postman (In Admin Mode)</h4>
 	<ul>
-		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Enter url: micahnetz.com/dinoAPI/admin/</li>
 		<li>Select request method: DELETE</li>
 		<li>Enter the following params:</li>
 		<ul>
@@ -181,7 +180,7 @@ $.ajax({
 	<h4>How to structure query (Admin)</h4>
 	<pre class="prettyprint lang-js">
 $.ajax({
-	url: "http://micahnetz.com/dinoAPI/commandsAdmin.php?id=" + id,
+	url: "http://micahnetz.com/dinoAPI/admin/?id=" + id,
 	type: "DELETE",
 	dataType: "json",
 	complete: function(data){
@@ -197,14 +196,14 @@ $.ajax({
 		Can be used in both Admin and User modes.</p>
 	<h4>How to test with Postman (In Admin Mode)</h4>
 	<ul>
-		<li>Enter url: micahnetz.com/dinoAPI/commandsAdmin.php</li>
+		<li>Enter url: micahnetz.com/dinoAPI/admin/</li>
 		<li>Select request method: OPTIONS</li>
 	</ul>
 	<h4>How to structure query (Admin)</h4>
 	<pre class="prettyprint lang-js">
 $.ajax({
 	type: 'OPTIONS',
-	url: 'http://micahnetz.com/dinoAPI/commandsAdmin.php',
+	url: 'http://micahnetz.com/dinoAPI/admin/',
 	dataType: 'json',
 	success: function(json){
 		/*report success (returns json results of GET request)*/
@@ -216,7 +215,7 @@ $.ajax({
 	<pre class="prettyprint lang-js">
 $.ajax({
 	type: 'OPTIONS',
-	url: 'http://micahnetz.com/dinoAPI/commandsUser.php',
+	url: 'http://micahnetz.com/dinoAPI/user/',
 	dataType: 'json',
 	success: function(json){
 		/*report success (returns json results of GET request)*/

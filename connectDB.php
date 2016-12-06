@@ -6,14 +6,14 @@ Note: cruds.php is the file in which I do my PDO prepared statement querying,
 	  and connectDB.php is used for creating a PDO connection
 */
 
-/* The following lines are for setting up the db connection to the local host: */
+/* The following lines are for setting up the db connection to the local host: 
 define('host', 'localhost');
 define('user', 'root');
 define('pass', '');
 define('db', 'dinosaurs');
 define('charset', 'utf8');
 /**/
-/*	The following lines are for setting up the db connection for the web hosting service: 
+/*	The following lines are for setting up the db connection for the web hosting service: */
 //Use the below technique
 define('host', 'localhost');
 define('user', 'micahnet');
